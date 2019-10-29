@@ -5,11 +5,11 @@ public static void main(String args[]){
 	final int EarthRad = 6371; //radius of earth
 	
 	System.out.print("Please enter your origin latitude: ");
-	double mylat = scan.nextDouble();  //example: maynooth = 53.381289599999995
+	double mylat = scan.nextDouble();  //example: Maynooth = 53.381289599999995
 	System.out.println("Your Latitude -> " + mylat);
   
 	System.out.println("Please enter your origin longitude: ");
-	double mylong = scan.nextDouble(); //example: maynooth = -6.591849899999943
+	double mylong = scan.nextDouble(); //example: Maynooth = -6.591849899999943
 	System.out.println("Your Longitude -> " + mylong);
 	
 	System.out.println("Please enter your destination latitude: ");
@@ -36,7 +36,7 @@ public static void main(String args[]){
 	double b = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 	double distance = EarthRad * b;
 	
-	System.out.println("The distance betwwen your origin and destination is : " + distance + " Kilometeres");
+	System.out.println("The distance between your origin and destination is : " + distance + " Kilometeres");
 	
 	
 	
